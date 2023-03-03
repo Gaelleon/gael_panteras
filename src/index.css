@@ -1,3 +1,14 @@
-.Fondo{
-  background-color: aqua;
+.Fondo {
+  color: grey;
+  text-align: center;
+}
+
+.App{
+  text-align: left;
+  background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1080-Fondo-de-pantalla-negro-mate-1920x1080-PX-768x432.jpg);
+  color: white;
+}
+
+.Foto{
+  text-align: center;
 }
