@@ -1,13 +1,17 @@
 import React from "react";
-import Header from './Componentes/Header';
-import Foto_Gael from './Assets/Foto_Gael.jpg';
+//import Foto_Gael from './Assets/Foto_Gael.jpg';
+import Objetivos from './Componentes/Objetivos';
+import Experiencia from './Componentes/Experiencia';
+import Contacto from './Componentes/Contacto';
+
 
 function App() {
   return (
     <div className="App">
       <div className="Foto">
-        <img src={Foto_Gael}></img>
-        <Header></Header>
+        <Objetivos />
+        <Experiencia />
+        <Contacto />
       </div>
 
     </div>

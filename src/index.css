@@ -1,15 +1,76 @@
-body{
-  background-color: black;
+.Parte1 {
+    padding-top: 27vh;
+    padding-bottom: 27vh;
+    background-color: #1f2124;
 }
-
-.Foto{
-  text-align: center;
+.Datos {
+    margin: 100px;
+    color: white;
 }
-.Foto img{
-  height: 50px;
-  width: 50px;
+.Barra{
+    width: 60vh;
+    height: 1vh;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: gray;
+    margin-bottom: 2vh;
 }
-
-.Perfil{
-  color:white;
+.Barras {
+    margin: 100px;
+    color: gray;
+}
+.Progreso_HTML{
+    width: 38vh;
+    height: 4px;
+    border-radius: 50px;
+    background-color: gold;
+    margin-bottom: 2vh;
+}
+.Progreso_Swift{
+    width: 55vh;
+    height: 4px;
+    border-radius: 50px;
+    background-color: gold;
+    margin-bottom: 2vh;
+}
+.Progreso_Python{
+    width: 45vh;
+    height: 4px;
+    border-radius: 50px;
+    background-color: gold;
+    margin-bottom: 2vh;
+}
+.Progreso_C{
+    width: 25vh;
+    height: 4px;
+    border-radius: 50px;
+    background-color: gold;
+    margin-bottom: 2vh;
+}
+.Progreso_JavaScript{
+    width: 40vh;
+    height: 4px;
+    border-radius: 50px;
+    background-color: gold;
+    margin-bottom: 2vh;
+}
+.Parte2 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: white;
+}
+.bloqueHabilidadesEstilo{
+    background-color: gray;
+    margin: 5vh;
+    width: 35vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh; 
+    text-align: center;
+}
+.Parte3{
+background-color: gold;
+}
+.bloqueHabilidadesEstilo h3 {
+    color: white;
+    font-size: 20px;
 }
