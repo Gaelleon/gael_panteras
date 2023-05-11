@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Row';
 function Contacto() {
     return(
         <Col className='Parte3'>
-            <h1 style={{ color: "gold", textAlign: "center" }}>Contacto</h1>
             {bloque_experiencia.map(content => (
                 <Bloque_experiencia
                     key={content.key}
