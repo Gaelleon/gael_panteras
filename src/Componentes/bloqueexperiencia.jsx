@@ -6,7 +6,7 @@ function Bloque_contacto(props) {
         <div style={{ display: 'inline-block' }}>
                 <div className='BloqueContactoEstilo'>
                     {props.icon}
-                    <h3>{props.title}</h3>
+                    <h3 className='TituloContacto'>{props.title}</h3>
                 </div>
         </div>
     );

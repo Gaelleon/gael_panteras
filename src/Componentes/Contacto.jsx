@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css'
 import bloque_experiencia from '../bloqueexperiencia';
 import Bloque_experiencia from './bloqueexperiencia';
-import Col from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Contacto() {
     return(

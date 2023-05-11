@@ -60,14 +60,18 @@
     background-color: white;
 }
 .Parte3{
-background-color: gold;
+background-color: black;
 }
 .BloqueContactoEstilo {
     background-color: #1f2124;
-    margin: 5vh;
-    width: 45vh;
+    margin: 7vh;
+    width: 35vh;
+    height: 25vh;
     padding-top: 5vh;
-    padding-bottom: 5vh;
     text-align: center;
     color: white
+}
+.TituloContacto{
+    padding-top: 10px;
+    font-size: 15px;
 }
