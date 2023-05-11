@@ -60,14 +60,14 @@
     background-color: white;
 }
 .Parte3{
-background-color: black;
+background-color: #1f2124;
 }
 .BloqueContactoEstilo {
     background-color: #1f2124;
     margin: 7vh;
     width: 35vh;
-    height: 25vh;
-    padding-top: 5vh;
+    height: 20vh;
+    padding-top: 2vh;
     text-align: center;
     color: white
 }
