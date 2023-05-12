@@ -11,7 +11,7 @@ function Objetivos(){
                 <label style={{color:"gray"}}>Sobre mi:</label>
                 <h1>Mi misión es ser desarrollador web <h1 style={{color:"gold", display: "inline" }}>FullStack.</h1></h1>
                 <br />
-                <p style={{color:"gray"}}>Soy Gael León, una persona con gran habilidad y responsabilidad para proyectos, siempre listo para aplicar los conocimientos adquiridos durante la
+                <p style={{color:"gray"}}>Soy una persona con gran habilidad y responsabilidad para proyectos, siempre listo para aplicar los conocimientos adquiridos durante la
                     licenciatura con fin de ayudarme a crecer como persona y profesionalmente.
                 </p>
             </Col>

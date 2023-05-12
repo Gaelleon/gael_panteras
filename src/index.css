@@ -1,3 +1,11 @@
+.Inicio{
+    background-image: url(/src/Assets/img/Fondo.png);
+    padding-top: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   background-attachment: fixed; 
+}
 .Parte1 {
     padding-top: 27vh;
     padding-bottom: 27vh;
@@ -54,10 +62,24 @@
     background-color: gold;
     margin-bottom: 2vh;
 }
+.Gustos{
+    background-color: white;
+}
+.Foto{
+    margin-top: 25vh;
+}
+.Lista{
+    text-align: center;
+    padding-bottom: 50vh;
+    padding-top: 50vh;
+}
+.ListaEstilo{
+    font-size: 30px;
+}
 .Parte2 {
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-color: white;
+    background-color: gray;
 }
 .Parte3{
 background-color: #1f2124;
