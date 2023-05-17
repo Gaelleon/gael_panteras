@@ -19,9 +19,9 @@ import FotoGael from '../Assets/img/FotoGael.jpg'
                 </div>
             </Col>
             
-            <Col>
+            <Col className='Foto'>
                 <div>
-                    <img src={FotoGael} className='Foto'/>
+                    <img src={FotoGael} />
                 </div>
             </Col>
         </Row>
