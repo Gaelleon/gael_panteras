@@ -15,7 +15,6 @@ function App() {
         <Experiencia />
         <Contacto />
       </div>
-
     </div>
   );
 }
