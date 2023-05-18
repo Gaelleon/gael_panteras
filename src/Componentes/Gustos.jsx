@@ -2,6 +2,7 @@ import React from 'react';
 import '../index.css'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image'
 import FotoGael from '../Assets/img/FotoGael.jpg'
  
  function Gustos(){
@@ -21,7 +22,7 @@ import FotoGael from '../Assets/img/FotoGael.jpg'
             
             <Col className='Foto'>
                 <div>
-                    <img src={FotoGael} />
+                    <Image fluid src={FotoGael} />
                 </div>
             </Col>
         </Row>

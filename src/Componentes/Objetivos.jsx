@@ -8,7 +8,7 @@ function Objetivos(){
     return(
         <Row className="Parte1">
             <Col className="Datos">
-                <label style={{color:"gray"}}>Sobre mi:</label>
+                <label style={{color:"gray"}}>Sobre mí:</label>
                 <h1>Mi misión es ser desarrollador web <h1 style={{color:"gold", display: "inline" }}>FullStack.</h1></h1>
                 <br />
                 <p style={{color:"gray"}}>Soy una persona con gran habilidad y responsabilidad para proyectos, siempre listo para aplicar los conocimientos adquiridos durante la

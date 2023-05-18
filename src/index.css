@@ -1,15 +1,22 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Banner */
 .Inicio{
     background-image: url(/src/Assets/img/Fondo.png);
-    padding-top: 100vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
     box-sizing: border-box;
 }
+
+/* Introducción */
 .Parte1 {
-    padding-top: 27vh;
-    padding-bottom: 27vh;
+    height: 100vh;
     background-color: #1f2124;
     display: flex;
     justify-content: center;
@@ -17,11 +24,12 @@
     box-sizing: border-box;
 }
 .Datos {
-    margin: 100px;
+    text-align: center;
     color: white;
 }
+
 .Barra{
-    width: 60vh;
+    width: 100%;
     height: 1vh;
     border: 2px solid;
     border-radius: 50px;
@@ -36,74 +44,79 @@
     box-sizing: border-box;
 }
 .Progreso_HTML{
-    width: 38vh;
+    width: 70%;
     height: 4px;
     border-radius: 50px;
     background-color: gold;
     margin-bottom: 2vh;
 }
 .Progreso_Swift{
-    width: 55vh;
+    width: 80%;
     height: 4px;
     border-radius: 50px;
     background-color: gold;
     margin-bottom: 2vh;
 }
 .Progreso_Python{
-    width: 45vh;
+    width: 50%;
     height: 4px;
     border-radius: 50px;
     background-color: gold;
     margin-bottom: 2vh;
 }
 .Progreso_C{
-    width: 25vh;
+    width: 30%;
     height: 4px;
     border-radius: 50px;
     background-color: gold;
     margin-bottom: 2vh;
 }
 .Progreso_JavaScript{
-    width: 40vh;
+    width: 80%;
     height: 4px;
     border-radius: 50px;
     background-color: gold;
     margin-bottom: 2vh;
 }
+
+/* Gustos */
 .Gustos{
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .Foto{
-    margin-top: 25vh;
     justify-content: center;
-}
+    text-align: center;
+} 
 .Lista{
     text-align: center;
-    padding-bottom: 50vh;
-    padding-top: 50vh;
 }
 .ListaEstilo{
     font-size: 30px;
+    padding: 0;
 }
+
+/* Experiencias */
 .Parte2 {
     padding-top: 5vh;
     padding-bottom: 5vh;
     background-color: lightgray;
     box-sizing: border-box;
 }
-.Parte3{
+
+/* Footer */
+ .Parte3{
     background-color: black;
-    box-sizing: border-box;
-    display: flex;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 .BloqueContactoEstilo {
     background-color: black;
-    margin: 7vh;
-    width: 35vh;
-    height: 20vh;
+    margin: 2vh;
     padding-top: 2vh;
     text-align: center;
     color: white
@@ -111,4 +124,4 @@
 .TituloContacto{
     padding-top: 10px;
     font-size: 15px;
-}
+} 
