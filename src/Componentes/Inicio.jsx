@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 
 function Inicio() {
     return(
-        <Row className='Inicio'>
+        <Row className='Inicio d-none d-sm-block'>
         </Row>
     );
 }

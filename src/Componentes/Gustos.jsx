@@ -20,7 +20,7 @@ import FotoGael from '../Assets/img/FotoGael.jpg'
                 </div>
             </Col>
             
-            <Col className='Foto'>
+            <Col className='Foto d-none d-sm-block'>
                 <div>
                     <Image fluid src={FotoGael} />
                 </div>
